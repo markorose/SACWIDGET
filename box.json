@@ -11,21 +11,21 @@
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-demo-gauge",
+			"tag": "com-sac-gauge",
 			"url": "https://github.com/markorose/SACWIDGET/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
-			"tag": "com-demo-gauge-sps",
+			"tag": "com-sac-gauge-sps",
 			"url": "https://github.com/markorose/SACWIDGET/box/box_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
-			"tag": "com-demo-box-bps",
+			"tag": "com-sac-gauge-bps",
 			"url": "https://github.com/markorose/SACWIDGET/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
