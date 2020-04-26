@@ -4,7 +4,7 @@
 	"name": "Demo Gauge",
 	"description": "A gauge demo",
 	"newInstancePrefix": "Gauge",
-	"icon": "https://github.com/markorose/SACWIDGET/blob/master/box/icon.png",
+	"icon": "https://markorose.github.io/SACWIDGET/box/icon.png",
 	"vendor": "Demo",
 	"eula": "EULA",
 	"license": "1.0",
@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-sac-gauge",
-			"url": "https://github.com/markorose/SACWIDGET/blob/master/box/box.js",
+			"url": "https://markorose.github.io/SACWIDGET/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
@@ -26,7 +26,7 @@
 		{
 			"kind": "builder",
 			"tag": "com-sac-gauge-bps",
-			"url": "https://github.com/markorose/SACWIDGET/blob/master/box/box_bps.js",
+			"url": "https://markorose.github.io/SACWIDGET/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
