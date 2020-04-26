@@ -45,15 +45,15 @@
 		"color": {
 			"type": "string",
 			"description": "Text Color info",
-			"default": #3498db
+			"default": "#3498db"
 		},
 		"width": {
 			"type": "integer",
-			"default": 100
+			"default": 300
 		},
 		"height": {
 			"type": "integer",
-			"default": 100
+			"default": 300
 		}
 	},
 	"methods": {
