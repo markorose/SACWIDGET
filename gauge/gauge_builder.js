@@ -1,7 +1,6 @@
-(function()  
- {
+(function()  {
 	let template = document.createElement("template");
-	template.innerHTML = '
+	template.innerHTML = `
 		<form id="form">
 			<fieldset>
 				<legend>Color Properties</legend>
@@ -18,9 +17,9 @@
 		:host {
 			display: block;
 			padding: 1em 1em 1em 1em;
-		       }
+		}
 		</style>
-	';
+	`;
 
 	class GaugeBuilder extends HTMLElement {
 		constructor() {
@@ -28,7 +27,7 @@
 			this._shadowRoot = this.attachShadow({mode: "open"});
 			this._shadowRoot.appendChild(template.content.cloneNode(true));
 			this._shadowRoot.getElementById("form").addEventListener("submit", this._submit.bind(this));
-		               }
+		}
 
 		_submit(e) {
 			e.preventDefault();
@@ -36,19 +35,19 @@
 					detail: {
 						properties: {
 							color: this.color
-						             }
-					        }
-			                                                          }));
-		              }
+						}
+					}
+			}));
+		}
 
 		set color(newColor) {
 			this._shadowRoot.getElementById("builder_color").value = newColor;
-		                    }
+		}
 
 		get color() {
 			return this._shadowRoot.getElementById("builder_color").value;
-		             }
+		}
 	}
 
-	customElements.define("com-sac-gauge-builder“, GaugeBuilder);
+	customElements.define("com-sac-gauge-builder", GaugeBuilder);
 })();
