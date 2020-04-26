@@ -44,3 +44,4 @@
 	}
 
 customElements.define("com-sac-gauge-sps", GaugeSps);
+})();
