@@ -1,12 +1,13 @@
 (function()  {
 	let template = document.createElement("template");
-	template.innerHTML = ` <form id="form">
+	template.innerHTML = ` 
+                     <form id="form">
 			<fieldset>
 				<legend>Color Properties</legend>
 				<table>
 					<tr>
 						<td>Color</td>
-						<td><input id="bps_color" type="text" size="10" maxlength="10"></td>
+						<td><input id="builder_color" type="text" size="10" maxlength="10"></td>
 					</tr>
 				</table>
 				<input type="submit" style="display:none;">
