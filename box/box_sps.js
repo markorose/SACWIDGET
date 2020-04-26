@@ -15,7 +15,7 @@
 		</form>
 	`;
 
-	class BoxSps extends HTMLElement {
+	class GaugeSps extends HTMLElement {
 		constructor() {
 			super();
 			this._shadowRoot = this.attachShadow({mode: "open"});
