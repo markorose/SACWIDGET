@@ -1,7 +1,6 @@
 (function()  {
 	let template = document.createElement("template");
-	template.innerHTML = '
-		<form id="form">
+	template.innerHTML = ` <form id="form">
 			<fieldset>
 				<legend>Color Properties</legend>
 				<table>
@@ -19,7 +18,7 @@
 			padding: 1em 1em 1em 1em;
 		}
 		</style>
-	';
+	`;
 
 	class GaugeBuilder extends HTMLElement {
 		constructor() {
