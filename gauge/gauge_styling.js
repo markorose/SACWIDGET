@@ -1,7 +1,7 @@
 (function()  {
 	let template = document.createElement("template");
-	template.innerHTML = '
-		<form id="form">
+	template.innerHTML = `
+                   <form id="form">
 			<fieldset>
 				<legend>Color Properties</legend>
 				<table>
@@ -13,7 +13,7 @@
 				<input type="submit" style="display:none;">
 			</fieldset>
 		</form>
-	';
+	`;
 
 	class GaugeStyling extends HTMLElement {
 		constructor() {
