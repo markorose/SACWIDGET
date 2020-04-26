@@ -9,7 +9,6 @@
 			border-style: solid;
 			display: block;
 		} 
-
 		body {
 		  background: #fff;
 		}
@@ -54,7 +53,7 @@
 		    </div>
 		  </div>
 		</div>
-`;
+	`;
 
 	class Gauge extends HTMLElement {
 		constructor() {
@@ -120,5 +119,5 @@
 		}
 	}
 	
-	customElements.define("com-sac-gauge", Gauge);
+	customElements.define("com-demo-gauge", Gauge);
 })();
