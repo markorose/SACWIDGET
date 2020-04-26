@@ -119,5 +119,5 @@
 		}
 	}
 	
-	customElements.define("com-demo-gauge", Gauge);
+	customElements.define("com-sac-gauge", Gauge);
 })();
