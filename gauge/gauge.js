@@ -99,7 +99,7 @@
 		  
 
 		onCustomWidgetBeforeUpdate(changedProperties) {
-			this._props = { ...this._props, ...changedProperties };
+			//this._props = { ...this._props, ...changedProperties };
 		}
 
 		onCustomWidgetAfterUpdate(changedProperties) {
