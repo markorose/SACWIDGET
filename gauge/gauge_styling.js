@@ -44,4 +44,3 @@
 	}
 
 customElements.define("com-sac-gauge-styling", GaugeStyling);
-	})();
